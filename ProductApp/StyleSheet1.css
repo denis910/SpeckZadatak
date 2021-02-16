@@ -1,0 +1,72 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#productInputGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#productOutputGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:flex-end;
+}
+
+button {
+    justify-self: flex-end;
+    height: 33px;
+    width: 75%;
+    border-radius: 5px;
+    border-style: none;
+    background-color:#00008b;
+    color: white;
+}
+
+button:hover {
+    background-color: #00005b;
+    cursor: pointer;
+}
+
+input[type=text] {
+    background-color: #f5f5fb;
+    justify-self: flex-start;
+    height: 30px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+#productRemove {
+    justify-self: flex-end;
+}
+
+#productNumber > p {
+    margin-bottom: auto;
+}
+
+#productList > button {
+    background-color: #eaeaea;
+    color: red;
+    margin-top: 12px;
+    width: 100%;
+}
+
+#productList > button:hover {
+    background-color: red;
+    color: #eaeaea;
+}

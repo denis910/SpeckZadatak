@@ -61,12 +61,12 @@ button:focus {
 
 #productList > button {
     background-color: #eaeaea;
-    color: red;
+    color: #00008b;
     margin-top: 12px;
     width: 100%;
 }
 
 #productList > button:hover {
-    background-color: red;
+    background-color: #00008b;
     color: #eaeaea;
 }
